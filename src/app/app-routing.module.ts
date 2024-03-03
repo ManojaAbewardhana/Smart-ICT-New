@@ -9,6 +9,8 @@ import { Grade8Component } from './pages/grade8/grade8.component';
 import { Grade9Component } from './pages/grade9/grade9.component';
 import { Grade10Component } from './pages/grade10/grade10.component';
 import { Grade11Component } from './pages/grade11/grade11.component';
+import { ForumComponent } from './pages/forum/forum.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -20,6 +22,8 @@ const routes: Routes = [
   {path:'grade9',component:Grade9Component},
   {path:'grade10',component:Grade10Component},
   {path:'grade11',component:Grade11Component},
+  {path: 'forum', component:ForumComponent},
+  {path: 'gallery', component:GalleryComponent},
 ];
 
 @NgModule({

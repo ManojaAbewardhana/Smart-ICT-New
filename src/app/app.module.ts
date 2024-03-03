@@ -16,6 +16,8 @@ import { Grade8Component } from './pages/grade8/grade8.component';
 import { Grade9Component } from './pages/grade9/grade9.component';
 import { Grade10Component } from './pages/grade10/grade10.component';
 import { Grade11Component } from './pages/grade11/grade11.component';
+import { ForumComponent } from './pages/forum/forum.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { Grade11Component } from './pages/grade11/grade11.component';
     Grade9Component,
     Grade10Component,
     Grade11Component,
+    ForumComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
